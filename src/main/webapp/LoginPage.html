@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Login_page.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="Home_Page.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Contact_Page.jsp">Contact</a>
+            <a href="Feedback_Page.jsp">Feedback</a>
+        </nav>
+
+        <form action="#" class="search-bar" method="get">
+            <input type="text" placeholder="search...">
+            <button class="submit"><i class='bx bx-search'></i></button>
+        </form>
+    </header>
+
+    <div class="background"></div>
+
+    <div class="container">
+        <div class="content">
+            <h2 class="logo"><i class='bx bxl-firebase'></i>SHOPPING HUBB</h2>
+            <div class="text-sci"> 
+                <h2>Welcome <br><span>To Our New Website.</span></h2>
+                <p>"Shop with Ease, Anytime, Anywhere!" <br> <br>
+					"Discover, Delight, and Shop Your Heart Out!" <br> <br>
+					"Unlock a World of Shopping at Your Fingertips!"</p>
+                   <div class="social-icons">
+                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="#"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+
+                   </div>
+            </div>
+        </div>
+
+        <div class="logreg-box">
+            <div class="form-box login">
+                <form action="loginvalidation" method="post">
+                    <h2>Log In</h2>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxl-gmail'></i></span>
+                        <input type="email" name="email" required>
+                        <label>Email</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                        <input type="password"  name="password" required>
+                        <label>Password</label>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <a href="#">Forgot password</a>
+                    </div>
+                    <div class="radio">
+                        <div class="radio_item"><input type="radio" name="choice" id="radio1" value="Customer"><label for="radio1">Customer</label></div>
+                        <div class="radio_item"><input type="radio" name="choice" id="radio2" value="Merchant"><label for="radio2">Merchant</label></div>
+                        <div class="radio_item"><input type="radio" name="choice" id="radio3" value="Admin"><label for="radio3">Admin</label></div>
+                    </div>
+                    <button type="submit" class="btn">Log In</button>
+
+                    <div class="login-register">
+                        <p>Don't have account? <a href="createaccount.html" class="register-link">Sign up</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
